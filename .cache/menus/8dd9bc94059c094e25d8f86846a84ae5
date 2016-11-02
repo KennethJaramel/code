@@ -1,0 +1,1551 @@
+1.2
+lxde-applications.menu
+24
+D/home/kenneth/.local/share/desktop-directories
+D/etc/xdg/lubuntu/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/usr/share/Lubuntu/desktop-directories
+D/var/lib/snapd/desktop/desktop-directories
+D/home/kenneth/.local/share/applications
+D/etc/xdg/lubuntu/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/usr/share/Lubuntu/applications
+D/var/lib/snapd/desktop/applications
+D/etc/xdg/menus/applications-merged
+D/usr/share/upstart/xdg/menus/applications-merged
+D/etc/xdg/xdg-Lubuntu/menus/applications-merged
+D/etc/xdg/lubuntu/menus/applications-merged
+D/home/kenneth/.config/menus/applications-merged
+F/home/kenneth/.config/menus/lxde-applications.menu
+F/etc/xdg/lubuntu/menus/lxde-applications.menu
+Unity;MATE;
++Applications
+
+
+
+
+-1
+0
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+3
+0
+-file-roller.desktop
+Archive Manager
+Create and modify an archive
+file-roller
+
+11
+
+file-roller %U
+2
+-5
+file-roller
+
+GTK;GNOME;Utility;Archiving;Compression;X-GNOME-Utilities
+zip,tar,extract,unpack
+-byobu.desktop
+Byobu Terminal
+Advanced Command Line and Text Window Manager
+byobu
+
+11
+
+env TERM=xterm-256color byobu
+1
+0
+
+
+GNOME;GTK;Utility
+
+-gucharmap.desktop
+Character Map
+Insert special characters into documents
+accessories-character-map
+
+11
+
+gucharmap
+2
+0
+
+
+GNOME;GTK;Utility
+font,unicode
+-org.gnome.DiskUtility.desktop
+Disks
+Manage Drives and Media
+gnome-disks
+
+11
+
+gnome-disks
+2
+0
+
+
+GNOME;GTK;Utility;HardwareSettings;X-GNOME-Utilities;Settings;HardwareSettings
+disk,drive,volume,harddisk,hdd,disc,cdrom,dvd,partition,iso,image,backup,restore,benchmark,raid,luks,encryption,S.M.A.R.T.,smart
+-pcmanfm.desktop
+File Manager PCManFM
+Browse the file system and manage the files
+system-file-manager
+
+11
+File Manager
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-galculator.desktop
+Galculator
+Perform simple and scientific calculations
+galculator
+
+11
+
+galculator
+2
+0
+
+
+Utility
+
+-yelp.desktop
+Help
+Get help with Unity
+help-browser
+
+11
+
+yelp %u
+2
+34
+
+
+GNOME;GTK;Core;Documentation;Utility
+documentation,information,manual
+-gpicview.desktop
+Image Viewer
+View your images easily
+gpicview
+
+11
+Image Viewer
+gpicview %f
+2
+0
+
+
+Graphics;Utility;Core;GTK;Viewer;RasterGraphics;2DGraphics;Photography
+graphics,pictures,viever,photography
+-leafpad.desktop
+Leafpad
+Simple text editor
+leafpad
+
+11
+
+leafpad %f
+0
+0
+
+
+GTK;Utility;TextEditor
+editor
+-org.gnome.Screenshot.desktop
+Screenshot
+Save images of your screen or individual windows
+applets-screenshooter
+
+11
+
+gnome-screenshot --interactive
+2
+-5
+
+
+GTK;GNOME;Utility;X-GNOME-Utilities
+snapshot,capture,print,screenshot
+-unity-datetime-panel.desktop
+Time & Date
+Change your clock and date settings
+unity-datetime-panel
+
+11
+
+unity-control-center datetime
+2
+32
+unity-control-center
+
+GNOME;GTK;Utility;DesktopSettings;Settings;X-GNOME-SystemSettings;X-Unity-Settings-Panel
+
+-vim.desktop
+Vim
+Edit text files
+gvim
+
+11
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+
+-xpad.desktop
+Xpad
+Jot down notes for later
+xpad
+
+11
+Sticky Notes
+xpad
+2
+0
+xpad
+
+GTK;Utility
+
+
++Graphics
+Graphics
+Graphics applications
+applications-graphics
+lxde-graphics.directory
+3
+0
+-evince.desktop
+Document Viewer
+View multi-page documents
+evince
+
+11
+
+evince %U
+2
+0
+evince
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+pdf,ps,postscript,dvi,xps,djvu,tiff,document,presentation
+-display-im6.desktop
+ImageMagick (display Q16)
+Display and edit image files
+display-im6.q16
+
+11
+
+/usr/bin/display-im6 %f
+0
+0
+
+
+Graphics
+Image,Slideshow,View,Transform,Enhance,F/X,Special Effects
+-display-im6.q16.desktop
+ImageMagick (display Q16)
+Display and edit image files
+display-im6.q16
+
+11
+
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %f
+0
+0
+
+
+Graphics
+Image,Slideshow,View,Transform,Enhance,F/X,Special Effects
+-mtpaint.desktop
+mtPaint graphic editor
+painting program to create pixel art and manipulate digital photos
+mtpaint
+
+11
+Painting program
+mtpaint
+0
+0
+
+
+Graphics;RasterGraphics
+graphics,editor
+-simple-scan.desktop
+Simple Scan
+Scan Documents
+scanner
+
+11
+Document Scanner
+simple-scan
+2
+0
+
+
+GNOME;GTK;Graphics;Scanning
+scan,scanner,flatbed,adf
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+3
+0
+-firefox.desktop
+Firefox Web Browser
+Browse the World Wide Web
+firefox
+
+11
+Web Browser
+firefox %u
+2
+0
+
+
+GNOME;GTK;Network;WebBrowser
+Internet,WWW,Browser,Web,Explorer
+-pidgin.desktop
+Pidgin Internet Messenger
+Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more
+pidgin
+
+11
+Internet Messenger
+pidgin
+2
+0
+
+
+Network;InstantMessaging
+
+-sylpheed.desktop
+Sylpheed
+E-Mail client
+sylpheed
+
+11
+
+sylpheed %u
+0
+0
+
+
+GTK;Network;Email;News
+lightweight,user-friendly,keyboard-oriented,mh,imap,pop3,nntp,japanese,plugins,gpg
+-transmission-gtk.desktop
+Transmission
+Download and share files over BitTorrent
+transmission
+
+11
+BitTorrent Client
+transmission-gtk %U
+2
+0
+transmission-gtk
+
+Network;FileTransfer;P2P;GTK
+
+
++Office
+Office
+Office Applications
+applications-office
+lxde-office.directory
+3
+0
+-abiword.desktop
+AbiWord
+Compose, edit, and view documents
+abiword
+
+11
+Word Processor
+abiword %U
+2
+0
+
+
+Office;WordProcessor;GNOME;GTK;X-Red-Hat-Base
+
+-gnumeric.desktop
+Gnumeric
+Calculation, Analysis, and Visualization of Information
+gnumeric
+
+11
+Spreadsheet
+gnumeric %U
+2
+0
+
+
+Office;Spreadsheet;Science;Math;GNOME;GTK
+Spreadsheet
+
++Other
+Other
+Applications that did not fit in other categories
+applications-other
+lxde-other.directory
+3
+0
+-screensavers-abstractile.desktop
+Abstractile
+Generates mosaic patterns of interlocking tiles. Written by Steve Sundstrom.
+
+abstractile.desktop
+12
+
+/usr/lib/xscreensaver/abstractile -root
+0
+64
+/usr/lib/xscreensaver/abstractile
+
+Screensaver
+
+-screensavers-binaryring.desktop
+BinaryRing
+A system of path tracing particles evolves continuously from an initial creation, alternating dark and light colors. Written by J. Tarbell and Emilio Del Tessandoro.
+
+binaryring.desktop
+12
+
+/usr/lib/xscreensaver/binaryring -root
+0
+64
+/usr/lib/xscreensaver/binaryring
+
+Screensaver
+
+-screensavers-cwaves.desktop
+CWaves
+This generates a languidly-scrolling vertical field of sinusoidal colors. Written by Jamie Zawinski.
+
+cwaves.desktop
+12
+
+/usr/lib/xscreensaver/cwaves -root
+0
+64
+/usr/lib/xscreensaver/cwaves
+
+Screensaver
+
+-screensavers-deco.desktop
+Deco
+Subdivides and colors rectangles randomly. It looks kind of like Brady-Bunch-era rec-room wall paneling. http://en.wikipedia.org/wiki/Piet_Mondrian#Paris_1919.E2.80.931938 Written by Jamie Zawinski and Michael Bayne.
+
+deco.desktop
+12
+
+/usr/lib/xscreensaver/deco -root
+0
+64
+/usr/lib/xscreensaver/deco
+
+Screensaver
+
+-screensavers-distort.desktop
+Distort
+Grabs an image of the screen, and then lets a transparent lens wander around the screen, magnifying whatever is underneath. Written by Jonas Munsin.
+
+distort.desktop
+12
+
+/usr/lib/xscreensaver/distort -root
+0
+64
+/usr/lib/xscreensaver/distort
+
+Screensaver
+
+-screensavers-fiberlamp.desktop
+Fiberlamp
+Draws a groovy rotating fiber optic lamp. Written by Tim Auckland.
+
+fiberlamp.desktop
+12
+
+/usr/lib/xscreensaver/fiberlamp -root
+0
+64
+/usr/lib/xscreensaver/fiberlamp
+
+Screensaver
+
+-screensavers-fuzzyflakes.desktop
+FuzzyFlakes
+Falling colored snowflake/flower shapes. Written by Barry Dmytro.
+
+fuzzyflakes.desktop
+12
+
+/usr/lib/xscreensaver/fuzzyflakes -root
+0
+64
+/usr/lib/xscreensaver/fuzzyflakes
+
+Screensaver
+
+-screensavers-galaxy.desktop
+Galaxy
+This draws spinning galaxies, which then collide and scatter their stars to the, uh, four winds or something. Written by Uli Siegmund, Harald Backert, and Hubert Feyrer.
+
+galaxy.desktop
+12
+
+/usr/lib/xscreensaver/galaxy -root
+0
+64
+/usr/lib/xscreensaver/galaxy
+
+Screensaver
+
+-screensavers-hexadrop.desktop
+Hexadrop
+Draws a grid of hexagons or other shapes and drops them out. http://en.wikipedia.org/wiki/Tiling_by_regular_polygons Written by Jamie Zawinski.
+
+hexadrop.desktop
+12
+
+/usr/lib/xscreensaver/hexadrop -root
+0
+64
+/usr/lib/xscreensaver/hexadrop
+
+Screensaver
+
+-screensavers-m6502.desktop
+m6502
+This emulates a 6502 microprocessor. The family of 6502 chips were used throughout the 70's and 80's in machines such as the Atari 2600, Commodore PET, VIC20 and C64, Apple ][, and the NES. Some example programs are included, and it can also read in an assembly file as input. Original JavaScript Version by Stian Soreng: http://www.6502asm.com/. Ported to XScreenSaver by Jeremy English. Written by Stian Soreng and Jeremy English.
+
+m6502.desktop
+12
+
+/usr/lib/xscreensaver/m6502 -root
+0
+64
+/usr/lib/xscreensaver/m6502
+
+Screensaver
+
+-screensavers-metaballs.desktop
+MetaBalls
+Draws two dimensional metaballs: overlapping and merging balls with fuzzy edges. http://en.wikipedia.org/wiki/Metaballs Written by W.P. van Paassen.
+
+metaballs.desktop
+12
+
+/usr/lib/xscreensaver/metaballs -root
+0
+64
+/usr/lib/xscreensaver/metaballs
+
+Screensaver
+
+-screensavers-penrose.desktop
+Penrose
+Draws quasiperiodic tilings; think of the implications on modern formica technology. In April 1997, Sir Roger Penrose, a British math professor who has worked with Stephen Hawking on such topics as relativity, black holes, and whether time has a beginning, filed a copyright-infringement lawsuit against the Kimberly-Clark Corporation, which Penrose said copied a pattern he created (a pattern demonstrating that "a nonrepeating pattern could exist in nature") for its Kleenex quilted toilet paper. Penrose said he doesn't like litigation but, "When it comes to the population of Great Britain being invited by a multinational to wipe their bottoms on what appears to be the work of a Knight of the Realm, then a last stand must be taken." As reported by News of the Weird #491, 4-Jul-1997. http://en.wikipedia.org/wiki/Penrose_tiling Written by Timo Korvola.
+
+penrose.desktop
+12
+
+/usr/lib/xscreensaver/penrose -root
+0
+64
+/usr/lib/xscreensaver/penrose
+
+Screensaver
+
+-screensavers-ripples.desktop
+Ripples
+This draws rippling interference patterns like splashing water. With the -water option, it manipulates your desktop image to look like something is dripping into it. Written by Tom Hammersley.
+
+ripples.desktop
+12
+
+/usr/lib/xscreensaver/ripples -root
+0
+64
+/usr/lib/xscreensaver/ripples
+
+Screensaver
+
+-screensavers-shadebobs.desktop
+ShadeBobs
+This draws smoothly-shaded oscillating oval patterns that look something like vapor trails or neon tubes. Written by Shane Smit.
+
+shadebobs.desktop
+12
+
+/usr/lib/xscreensaver/shadebobs -root
+0
+64
+/usr/lib/xscreensaver/shadebobs
+
+Screensaver
+
+-screensavers-slidescreen.desktop
+SlideScreen
+This takes an image, divides it into a grid, and then randomly shuffles the squares around as if it was one of those "fifteen-puzzle" games where there is a grid of squares, one of which is missing. http://en.wikipedia.org/wiki/Fifteen_puzzle Written by Jamie Zawinski.
+
+slidescreen.desktop
+12
+
+/usr/lib/xscreensaver/slidescreen -root
+0
+64
+/usr/lib/xscreensaver/slidescreen
+
+Screensaver
+
+-screensavers-swirl.desktop
+Swirl
+Flowing, swirly patterns. Written by M. Dobie and R. Taylor.
+
+swirl.desktop
+12
+
+/usr/lib/xscreensaver/swirl -root
+0
+64
+/usr/lib/xscreensaver/swirl
+
+Screensaver
+
+-screensavers-tessellimage.desktop
+Tessellimage
+Converts an image to triangles using Delaunay tessellation, and animates the result at various depths. More triangles are allocated to visually complex parts of the image. This is accomplished by first computing the first derivative of the image: the distance between each pixel and its neighbors (which is essentially edge detection or embossing). Then the Delaunay control points are chosen by selecting those pixels whose distance value is above a certain threshold: those are the pixels that have the largest change in color/brightness. http://en.wikipedia.org/wiki/Delaunay_triangulation Written by Jamie Zawinski.
+
+tessellimage.desktop
+12
+
+/usr/lib/xscreensaver/tessellimage -root
+0
+64
+/usr/lib/xscreensaver/tessellimage
+
+Screensaver
+
+-screensavers-xlyap.desktop
+XLyap
+This generates pretty fractal pictures via the Lyapunov exponent. http://en.wikipedia.org/wiki/Lyapunov_exponent Written by Ron Record.
+
+xlyap.desktop
+12
+
+/usr/lib/xscreensaver/xlyap -root
+0
+64
+/usr/lib/xscreensaver/xlyap
+
+Screensaver
+
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+3
+0
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+3
+0
+-alsamixergui.desktop
+Alsamixergui
+Graphical audio mixer
+/usr/share/pixmaps/alsamixergui.xpm
+
+11
+
+/usr/bin/alsamixergui
+0
+0
+
+
+Application;AudioVideo
+
+-audacious.desktop
+Audacious
+Listen to music
+audacious
+
+11
+Music Player
+audacious %U
+0
+0
+audacious
+
+AudioVideo;Audio;Player;GTK
+
+-gnome-mplayer.desktop
+GNOME MPlayer
+Play your media
+gnome-mplayer
+
+11
+Media Player
+gnome-mplayer %U
+2
+0
+
+
+AudioVideo;Audio;Video;Player;TV
+
+-guvcview.desktop
+guvcview
+A video viewer and capturer for the linux uvc driver
+/usr/share/pixmaps/guvcview/guvcview.png
+
+11
+GTK UVC video viewer
+guvcview
+2
+0
+guvcview
+
+Video;AudioVideo
+
+-xfburn.desktop
+Xfburn
+CD and DVD burning application
+media-cdrom
+
+11
+
+xfburn
+2
+0
+xfburn
+
+X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility
+
+
+-
++Administration
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+3
+0
+-fcitx.desktop
+Fcitx
+Start Input Method
+fcitx
+
+11
+Input Method
+fcitx
+0
+0
+
+
+System;Utility
+
+-gdebi.desktop
+GDebi Package Installer
+Install and view software packages
+gnome-mime-application-x-deb
+
+11
+Package Installer
+gdebi-gtk %f
+2
+-5
+
+
+System
+package,apt,dpkg,install
+-lightdm-gtk-greeter-settings.desktop
+LightDM GTK+ Greeter settings
+Configure LightDM GTK+ Greeter
+lightdm-gtk-greeter-settings
+
+11
+
+lightdm-gtk-greeter-settings-pkexec
+0
+0
+
+
+GNOME;GTK;Settings;System;Utility;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+Configuration,Utility
+-lubuntu-software-center.desktop
+Lubuntu Software Center
+Lets you choose from thousands of applications available for Ubuntu
+lubuntu-software-center
+
+11
+Software Center
+lubuntu-software-center
+2
+0
+
+
+PackageManager;GTK;System;Settings
+Sources,PPA,Install,Uninstall,Remove,Catalogue,Store,Apps,Light,Package
+-lxterminal.desktop
+LXTerminal
+Use the command line
+lxterminal
+
+11
+Terminal
+lxterminal
+0
+0
+lxterminal
+
+GTK;System;TerminalEmulator
+console,command line,execute
+-network.desktop
+Network
+Configure network devices and connections
+preferences-system-network
+
+11
+
+network-admin
+2
+0
+
+
+GNOME;GTK;System;Settings;X-GNOME-NetworkSettings
+
+-gnome-power-statistics.desktop
+Power Statistics
+Observe power management
+gnome-power-statistics
+
+11
+
+gnome-power-statistics
+2
+34
+
+
+GNOME;GTK;System;Monitor
+battery,consumption,charge
+-system-config-printer.desktop
+Printers
+Configure printers
+printer
+
+11
+
+system-config-printer
+2
+-7
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;System;Printing
+Printer,Queue,Print,Paper,Ink,Toner
+-update-manager.desktop
+Software Updater
+Show and install available updates
+system-software-update
+
+11
+Software Updates
+/usr/bin/update-manager
+0
+0
+
+
+System;Settings
+
+-usb-creator-gtk.desktop
+Startup Disk Creator
+Create a startup disk using a CD or disc image
+usb-creator-gtk
+
+11
+Startup Disk Creator
+usb-creator-gtk
+0
+0
+
+
+System;Settings;GTK;HardwareSettings
+
+-synaptic.desktop
+Synaptic Package Manager
+Install, remove and upgrade software packages
+synaptic
+
+11
+Package Manager
+synaptic-pkexec
+0
+0
+
+
+PackageManager;GTK;System;Settings
+
+-hardinfo.desktop
+System Profiler and Benchmark
+
+/usr/share/hardinfo/pixmaps/logo.png
+
+11
+
+hardinfo
+2
+0
+
+
+System
+
+-unity-control-center.desktop
+System Settings
+
+preferences-system
+
+11
+
+unity-control-center --overview
+2
+32
+
+
+GNOME;GTK;System
+Preferences,Settings
+-lxtask.desktop
+Task Manager
+Manage running processes
+utilities-system-monitor
+
+11
+Process manager
+lxtask
+2
+0
+
+
+GTK;System;Monitor
+task,kill,suspend,processor,memory,monitoring,performance
+-time.desktop
+Time and Date
+Change system time, date, and timezone
+time-admin
+
+11
+
+time-admin
+2
+0
+
+
+GNOME;GTK;System;Settings
+
+-unity-user-accounts-panel.desktop
+User Accounts
+Add or remove users
+system-users
+
+11
+
+unity-control-center user-accounts
+2
+32
+
+
+System;Settings;X-Unity-Settings-Panel;X-GNOME-SystemSettings
+Login,Name,Fingerprint,Avatar,Logo,Face,Password
+-users.desktop
+Users and Groups
+Add or remove users and groups
+config-users
+
+11
+
+users-admin
+2
+0
+
+
+GNOME;GTK;System;Settings
+
+
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+3
+0
+-software-properties-drivers.desktop
+Additional Drivers
+Configure third-party and proprietary drivers
+jockey
+
+11
+
+/usr/bin/software-properties-gtk --open-tab=4
+0
+0
+
+
+X-XFCE;GTK;Settings;HardwareSettings
+Drivers
+-unity-appearance-panel.desktop
+Appearance
+Change the background and the theme
+preferences-desktop-wallpaper
+
+11
+
+unity-control-center appearance
+2
+32
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Wallpaper,Background,Screen,Desktop,Theme,Appearance,Launcher,Unity,Menus
+-unity-bluetooth-panel.desktop
+Bluetooth
+Configure Bluetooth settings
+bluetooth
+
+11
+
+unity-control-center bluetooth
+2
+32
+
+
+GTK;GNOME;Settings;X-GNOME-NetworkSettings;HardwareSettings;X-Unity-Settings-Panel
+
+-blueman-adapters.desktop
+Bluetooth Adapters
+Set Bluetooth Adapter Properties
+blueman-device
+
+11
+
+blueman-adapters
+2
+72
+
+
+X-XFCE;Settings;HardwareSettings;X-XFCE-SettingsDialog;GTK
+
+-blueman-manager.desktop
+Bluetooth Manager
+Blueman Bluetooth Manager
+blueman
+
+11
+
+blueman-manager
+2
+0
+
+
+GTK;GNOME;Settings;HardwareSettings
+
+-unity-screen-panel.desktop
+Brightness & Lock
+Screen brightness and lock settings
+system-lock-screen
+
+11
+
+unity-control-center screen
+2
+32
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Brightness,Lock,Dim,Blank,Monitor
+-unity-color-panel.desktop
+Color
+Color management settings
+unity-color-panel
+
+11
+
+unity-control-center color
+2
+32
+
+
+GNOME;GTK;Settings;X-Unity-Settings-Panel;HardwareSettings
+Color,ICC,Profile,Calibrate,Printer,Display
+-lxappearance.desktop
+Customize Look and Feel
+Customizes look and feel of your desktop and applications
+preferences-desktop-theme
+
+11
+Customize Look and Feel
+lxappearance
+2
+-79
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+windows,preferences,settings,theme,style,appearance
+-lxsession-default-apps.desktop
+Default applications for LXSession
+Change the default applications on LXDE
+xfwm4
+
+11
+
+lxsession-default-apps
+0
+-15
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-pcmanfm-desktop-pref.desktop
+Desktop Preferences
+Change desktop wallpapers and behavior of desktop manager
+user-desktop
+
+11
+
+pcmanfm --desktop-pref
+2
+-79
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-unity-info-panel.desktop
+Details
+System Information
+applications-system
+
+11
+
+unity-control-center info
+2
+32
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings;X-Unity-Settings-Panel
+device,system,information,memory,processor,version,default,application,preferred,cd,dvd,usb,audio,video,disc,removable,media,autorun
+-org.gnome.DiskUtility.desktop
+Disks
+Manage Drives and Media
+gnome-disks
+
+11
+
+gnome-disks
+2
+0
+
+
+GNOME;GTK;Utility;HardwareSettings;X-GNOME-Utilities;Settings;HardwareSettings
+disk,drive,volume,harddisk,hdd,disc,cdrom,dvd,partition,iso,image,backup,restore,benchmark,raid,luks,encryption,S.M.A.R.T.,smart
+-unity-display-panel.desktop
+Displays
+Change resolution and position of monitors and projectors
+unity-display-panel
+
+11
+
+unity-control-center display
+2
+32
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Panel,Projector,xrandr,Screen,Resolution,Refresh
+-fcitx-configtool.desktop
+Fcitx Configuration
+Change Fcitx Configuration
+fcitx
+
+11
+Input Method Configuration
+fcitx-configtool
+0
+0
+
+
+Settings
+
+-ibus-setup.desktop
+IBus Preferences
+Set IBus Preferences
+ibus-setup
+
+11
+
+ibus-setup
+2
+-35
+
+
+Settings
+keyboard,input
+-im-config.desktop
+Input Method
+Set Keyboard Input Method
+input-keyboard
+
+11
+
+im-config
+0
+6
+
+
+Settings
+keyboard,input
+-unity-keyboard-panel.desktop
+Keyboard
+Change keyboard settings
+input-keyboard
+
+11
+
+unity-control-center keyboard
+2
+32
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Shortcut,Repeat,Blink
+-lxinput.desktop
+Keyboard and Mouse
+Configure keyboard, mouse, and other input devices
+input-keyboard
+
+11
+
+lxinput
+2
+-79
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-language-selector.desktop
+Language Support
+Configure multiple and native language support on your system
+preferences-desktop-locale
+
+11
+
+/usr/bin/gnome-language-selector
+0
+-5
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Language,Input method,Region,Format
+-light-locker-settings.desktop
+Light Locker Settings
+Configure locking your session
+preferences-desktop-screensaver
+
+11
+
+/usr/bin/light-locker-settings
+2
+0
+
+
+XFCE;GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;DesktopSettings;X-XFCE
+Configuration,Screensaver,User
+-lxrandr.desktop
+Monitor Settings
+Change screen resolution and configure external monitors
+video-display
+
+11
+
+lxrandr
+0
+-79
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+screen,display,tv,extend,projector,xrandr,refresh rate,position,enable,disable
+-unity-mouse-panel.desktop
+Mouse & Touchpad
+Set your mouse and touchpad preferences
+input-mouse
+
+11
+
+unity-control-center mouse
+2
+32
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Trackpad,Pointer,Click,Tap,Double,Button,Trackball
+-unity-network-panel.desktop
+Network
+Network settings
+network-workgroup
+
+11
+
+unity-control-center network
+2
+32
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Network,Wireless,IP,LAN,Proxy
+-nm-connection-editor.desktop
+Network Connections
+Manage and change your network connection settings
+preferences-system-network
+
+11
+
+nm-connection-editor
+2
+-7
+
+
+GNOME;GTK;Settings;X-GNOME-NetworkSettings
+
+-xfce4-notifyd-config.desktop
+Notifications
+Customize how notifications appear on your screen
+xfce4-notifyd
+
+11
+
+xfce4-notifyd-config
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-credentials-preferences.desktop
+Online Accounts
+Online account credentials and settings
+credentials-preferences
+
+11
+
+credentials-preferences
+2
+-33
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-PersonalSettings
+
+-unity-credentials-panel.desktop
+Online Accounts
+Online account credentials and settings
+credentials-preferences
+
+11
+
+unity-control-center credentials
+2
+32
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+
+-obconf.desktop
+Openbox Configuration Manager
+Tweak settings for Openbox
+obconf
+
+11
+Configuration Manager
+obconf %f
+2
+0
+
+
+Settings;DesktopSettings;GTK
+openbox,settings,configurations,themes
+-gnome-user-share-properties.desktop
+Personal File Sharing
+Preferences for sharing of files
+folder-remote
+
+11
+
+gnome-file-share-properties
+2
+32
+
+
+GNOME;Settings;X-GNOME-NetworkSettings
+
+-unity-power-panel.desktop
+Power
+Power management settings
+unity-power-panel
+
+11
+
+unity-control-center power
+2
+32
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;HardwareSettings
+Power,Sleep,Suspend,Hibernate,Battery
+-xfce4-power-manager-settings.desktop
+Power Manager
+Settings for the Xfce Power Manager
+xfpm-ac-adapter
+
+11
+Power Manager
+xfce4-power-manager-settings
+2
+-39
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-xscreensaver-properties.desktop
+Screensaver
+Change screensaver properties
+xscreensaver
+
+11
+
+xscreensaver-demo
+0
+0
+
+
+Settings;DesktopSettings;Security;X-XFCE
+
+-software-properties-gtk.desktop
+Software & Updates
+Configure the sources for installable software and updates
+software-properties
+
+11
+Software & Updates
+software-properties-gtk
+0
+-3
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel
+Drivers,Repositories,Repository,PPA
+-software-properties-gnome.desktop
+Software & Updates
+Configure the sources for installable software and updates
+software-properties
+
+11
+Software & Updates
+software-properties-gtk
+0
+2
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings
+Drivers,Repositories,Repository,PPA
+-unity-sound-panel.desktop
+Sound
+Change sound volume and sound events
+unity-sound-panel
+
+11
+
+unity-control-center sound
+2
+32
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Card,Microphone,Volume,Fade,Balance,Bluetooth,Headset
+-unity-region-panel.desktop
+Text Entry
+Change your keyboard or input method settings
+preferences-desktop-keyboard-shortcuts
+
+11
+
+unity-control-center region
+2
+32
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Language,Layout,Keyboard,Input Method,Text Entry
+-unity-datetime-panel.desktop
+Time & Date
+Change your clock and date settings
+unity-datetime-panel
+
+11
+
+unity-control-center datetime
+2
+32
+unity-control-center
+
+GNOME;GTK;Utility;DesktopSettings;Settings;X-GNOME-SystemSettings;X-Unity-Settings-Panel
+
+-unity-universal-access-panel.desktop
+Universal Access
+Universal Access Preferences
+preferences-desktop-accessibility
+
+11
+
+unity-control-center universal-access
+2
+32
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings;X-Unity-Settings-Panel
+Keyboard,Mouse,a11y,Accessibility,Contrast,Zoom,Screen Reader,text,font,size,AccessX,Sticky Keys,Slow Keys,Bounce Keys,Mouse Keys
+-unity-wacom-panel.desktop
+Wacom Tablet
+Set button mappings and adjust stylus sensitivity for graphics tablets
+input-tablet
+
+11
+
+unity-control-center wacom
+2
+32
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Tablet,Wacom,Stylus,Eraser,Mouse
+
+

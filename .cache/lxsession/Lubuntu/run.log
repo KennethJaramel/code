@@ -1,0 +1,554 @@
+** Message: environement.vala:58: Exporting primary_variable
+** Message: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:176: custom_config :/etc/xdg/lubuntu:
+** Message: environement.vala:177: config_dirs :/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg
+** Message: environement.vala:178: confir_dirs not null, export : /etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg
+** Message: environement.vala:183: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:217: custom_data :/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:
+** Message: environement.vala:218: data_dirs :/usr/share/Lubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+** Message: environement.vala:219: data_dirs not null, export : /etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+** Message: environement.vala:224: Exporting XDG_DATA_DIRS
+** Message: utils.vala:79: Config system location : /etc/xdg/xdg-Lubuntu/lxsession/Lubuntu
+** Message: utils.vala:79: Config system location : /usr/share/upstart/xdg/lxsession/Lubuntu
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/Lubuntu
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:527: Key file does not have key 'iGtk/ColorScheme' in group 'GTK'
+
+** (lxsession:3271): WARNING **: settings.vala:889: Failed to create file '/etc/xdg/lxsession/Lubuntu/desktop.conf.F0JEQY': Permission denied
+** Message: settings.vala:449: Monitoring: /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:453: Desktop file is already in config home, do nothing
+** Message: utils.vala:79: Config system location : /etc/xdg/xdg-Lubuntu/lxsession/Lubuntu
+** Message: utils.vala:79: Config system location : /usr/share/upstart/xdg/lxsession/Lubuntu
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/Lubuntu
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/Lubuntu/autostart
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/Lubuntu/autostart
+** Message: settings.vala:527: Key file does not have key 'dock/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'im2/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'widget1/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'notification/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'keybindings/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'lock_manager/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'message_manager/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'xsettings_manager/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'proxy_manager/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'proxy_manager/http' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'a11y/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'keyring/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'xrandr/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'email/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'pdf_reader/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'video_player/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'audio_player/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'images_display/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'text_editor/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'archive/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'charmap/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'calculator/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'spreadsheet/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'bittorent/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'document/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'burn/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'notes/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'disk_utility/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'tasks/command' in group 'Session'
+** Message: settings.vala:527: Key file does not have key 'guess_default' in group 'State'
+** Message: settings.vala:527: Key file does not have key 'type' in group 'Updates'
+** Message: settings.vala:527: Key file does not have key 'Beep' in group 'Keyboard'
+** Message: settings.vala:449: Monitoring: /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:453: Desktop file is already in config home, do nothing
+** Message: settings.vala:360: Settings default for Session, xsettings_manager, command : build-in
+** Message: settings.vala:360: Settings default for Session, proxy_manager, command : build-in
+** Message: settings.vala:360: Settings default for Session, keyring, command : ssh-agent
+** Message: settings.vala:360: Settings default for Keyboard, Beep, (null) : 1
+** Message: settings.vala:360: Settings default for State, guess_default, (null) : true
+** Message: settings.vala:360: Settings default for Session, email, command : sylpheed
+** Message: settings.vala:360: Settings default for Session, pdf_reader, command : evince
+** Message: settings.vala:360: Settings default for Session, video_player, command : gnome-mplayer
+** Message: settings.vala:360: Settings default for Session, audio_player, command : audacious
+** Message: settings.vala:360: Settings default for Session, images_display, command : gpicview
+** Message: settings.vala:360: Settings default for Session, text_editor, command : leafpad
+** Message: settings.vala:360: Settings default for Session, archive, command : file-roller
+** Message: settings.vala:360: Settings default for Session, calculator, command : galculator
+** Message: settings.vala:360: Settings default for Session, spreadsheet, command : gnumeric
+** Message: settings.vala:360: Settings default for Session, bittorent, command : transmission-gtk
+** Message: settings.vala:360: Settings default for Session, document, command : abiword
+** Message: settings.vala:360: Settings default for Session, burn, command : xfburn
+** Message: settings.vala:360: Settings default for Session, notes, command : xpad
+** Message: settings.vala:360: Settings default for Session, disk_utility, command : gnome-disks
+** Message: settings.vala:360: Settings default for Session, tasks, command : lxtask
+** Message: settings.vala:360: Settings default for Session, lock_manager, command : lxlock
+** Message: environement.vala:79: Exporting variable
+** Message: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:176: custom_config :
+** Message: environement.vala:177: config_dirs :/etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg
+** Message: environement.vala:178: confir_dirs not null, export : /etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg
+** Message: environement.vala:183: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:217: custom_data :
+** Message: environement.vala:218: data_dirs :/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+** Message: environement.vala:219: data_dirs not null, export : /etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+** Message: environement.vala:224: Exporting XDG_DATA_DIRS
+** Message: utils.vala:79: Config system location : /etc/xdg/xdg-Lubuntu/lxsession/Lubuntu
+** Message: utils.vala:79: Config system location : /usr/share/upstart/xdg/lxsession/Lubuntu
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/Lubuntu
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/Lubuntu/conffiles.conf
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/Lubuntu/conffiles.conf
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: options.vala:164: Activate xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: app.vala:76: Launching lxpanel 
+** Message: utils.vala:119: Laptop detect return true
+** Message: app.vala:76: Launching xfce4-power-manager 
+** Message: app.vala:76: Launching pcmanfm 
+** Message: app.vala:717: polkit separate
+** Message: app.vala:717: polkit separate
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/autostart
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/autostart
+** Message: autostart.vala:42: Autostart path : /home/kenneth/.config/lxsession/Lubuntu/autostart
+** Message: options.vala:107: Create build-in Clipboard
+** Message: main.vala:429: Check keymap_mode system
+** Message: main.vala:432: Create Option Keymap
+** Message: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-qic6KT41bzz2/agent.3310; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=3317; export SSH_AGENT_PID;
+echo Agent pid 3317;
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+
+** (lxpanel:3302): WARNING **: the lxsession-default.desktop is not valid desktop id of file manager
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/kenneth/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: app.vala:130: xfce4-power-manager exit with this type of exit: 0
+** Message: app.vala:139: Exit normal, don't reload
+** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+
+** (lxpanel:3302): WARNING **: lxpanel: can't load lxde_power_manager plugin
+Openbox-Message: Requested key "XF86Terminal" does not exist on the display
+
+(nm-applet:3341): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(lxpanel:3302): Indicator-Application-WARNING **: Unable to get application list: Operation was cancelled
+
+(lxpanel:3302): Wnck-WARNING **: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:3302): Wnck-WARNING **: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Openbox-Message: Requested key "XF86Terminal" does not exist on the display
+Openbox-Message: Requested key "XF86Terminal" does not exist on the display

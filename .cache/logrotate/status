@@ -1,0 +1,9 @@
+logrotate state -- version 2
+"/home/kenneth/.cache/upstart/lxsession.log" 2016-11-2-18:0:0
+"/home/kenneth/.cache/upstart/upstart-event-bridge.log" 2016-11-2-18:0:0
+"/home/kenneth/.cache/upstart/upstart-dbus-system-bridge.log" 2016-11-2-18:0:0
+"/home/kenneth/.cache/upstart/gnome-keyring-ssh.log" 2016-11-2-18:0:0
+"/home/kenneth/.cache/upstart/dbus.log" 2016-11-2-18:0:0
+"/home/kenneth/.cache/upstart/ssh-agent.log" 2016-11-2-18:0:0
+"/home/kenneth/.cache/upstart/update-notifier-release.log" 2016-11-2-18:0:0
+"/home/kenneth/.cache/upstart/gpg-agent.log" 2016-11-2-18:0:0
